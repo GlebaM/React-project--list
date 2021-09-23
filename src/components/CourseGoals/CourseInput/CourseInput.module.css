@@ -3,6 +3,7 @@
 }
 
 .form-control label {
+  color: rgba(41, 40, 40, 0.856);
   font-weight: bold;
   display: block;
   margin-bottom: 0.5rem;
@@ -24,10 +25,10 @@
 }
 
 .form-control.invalid input {
-  border-color: red;
+  border-color: rgba(219, 27, 27, 0.801);
   background: #ffd7d7;
 }
 
 .form-control.invalid label {
-  color: red;
+  color: rgba(219, 27, 27, 0.801);
 }
